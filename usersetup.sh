@@ -45,7 +45,11 @@ mv dotfiles $HOME/dotfiles
 ln -s $HOME/dotfiles/.bash_aliases $HOME/.bash_aliases
 ln -s $HOME/dotfiles/.tmux.conf $HOME/.tmux.conf
 ln -s $HOME/dotfiles/.bashrc $HOME/.bashrc
+ln -s $HOME/dotfiles/.zshrc $HOME/.zshrc
 touch $HOME/.secrets
 touch $HOME/.bashrc.local
+
+# -- install oh-my-zsh --
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 EOF
