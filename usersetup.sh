@@ -29,7 +29,7 @@ sudo -u $1 bash << 'EOF'
 
 # -- install nerdfont --
 mkdir -p $HOME/.local/share/fonts
-wget -P $HOME/.local/share/fonts https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/Agave.zip
+wget -P $HOME/.local/share/fonts https://github.com/source-foundry/Hack/releases/download/v3.003/Hack-v3.003-ttf.zip
 unzip $HOME/.local/share/fonts/Agave.zip -d $HOME/.local/share/fonts
 rm $HOME/.local/share/fonts/Agave.zip
 fc-cache -f -v
