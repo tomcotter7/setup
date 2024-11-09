@@ -53,4 +53,6 @@ touch $HOME/.zshrc.local
 # -- install oh-my-zsh --
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
+ln -s $HOME/dotfiles/aliases.zsh $HOME/.oh-my-zsh/custom/aliases.zsh
+
 EOF
